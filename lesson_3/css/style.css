@@ -1,0 +1,148 @@
+/*Тут  всі операції, які я використав із селекторами, 
+можливо деякі закоментую,*/ 
+/*бо будуть взаємовиключати один одного */
+
+
+/* */
+/* */
+/* */
+/* */
+
+/* */
+
+/* Селектор зірочка  */
+/*
+*{
+  color: rgb(44, 173, 130);
+}
+*/
+
+/* Тип №1. Селектор тегу */ 
+
+h1{
+    color: rgba(0, 0, 0, 0.597);
+}
+
+a{
+    color: rgb(46, 141, 229);
+}
+
+div>ul{
+    color: rgb(125, 106, 21);
+}
+
+/* Тип №2. Селектор класу */
+
+.mrsParkinson-law-block {
+    color: rgb(146, 93, 23);
+}
+
+.laws-block>ol{
+    color:brown;
+}
+
+
+/* Тип №3. Селектор ID */
+
+#mrsparkinson{
+    color: red;
+}
+
+/* КОМБІНАЦІЇ СЕЛЕКТОРІВ */
+
+/* Усі h2 з класом red-text */
+
+h2.red-text{
+    color: red;
+}
+
+/* Усі теги з класами rejection-idea-block 
+	та green-text одночасно */
+    .rejection-idea-block.green-text {
+        color: aquamarine;
+    }
+
+/* Звертаємось відразу до об'єктів з різних класів, тегів та ID
+ */
+ 
+ h4,
+ #parkinson,
+.red-text,
+.phone-block{
+    color: red;
+}
+
+/* КАСКАДНІСТЬ (ВКЛАДЕНІСТЬ) СЕЛЕКТОРІВ */
+/* ОБОВ'ЯЗКОВО ПРОБІЛ МІЖ ЕЛЕМЕНТАМИ */
+
+/* Усі теги P всередині об'єктів з класом about-block-definition */
+
+
+.about-block-definition p{
+    color: rgb(11, 98, 33);
+
+}
+
+/* 2 приклади,Усі обєкти з класом .about-block-main-text всередені об'єктів з класом about-block  а також обєкти класу violet-text-span в about-block  */
+/*
+.about-block .about-block-main-text {
+    color: rgb(64, 22, 103);
+}
+*/
+
+.about-block .violet-text-span{
+    color: rgb(201, 143, 255);   
+}
+
+/* Усі об'єкти в середені 
+об'єктів з класом  */
+/*body * {
+color: aliceblue;
+    }
+    */
+
+/*
+    .about-block *{
+    color: aliceblue;
+}
+*/
+
+/* Усі теги  першого рівня (безпосередні) в середені об'єктів з класом  */
+.latency-block > h2{
+
+    color: rgb(228, 152, 11);
+}
+
+
+/*
+Усі теги  div які знаходяться 
+далі по коду після об'єктів з класом 
+та мають той самий рівень вкладеності
+*/
+/*
+
+.about-block ~ div {
+    color: blue;
+}
+*/
+
+.about-block-definition ~ div
+{
+    color: blue;
+}
+
+
+/*
+Тег P який знаходяться беспосередньо 
+далі по коду після об'єктів з класом 
+та мають той самий рівень вкладеності
+*/
+.about-block + div {
+	color: rgb(255, 120, 120);
+}
+
+
+/*.latency-block + div {
+	color: rgb(255, 120, 120);
+}
+*/
