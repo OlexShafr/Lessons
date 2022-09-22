@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.woff2') format('woff2'),
+        url('../fonts/Lora-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Italic.woff2') format('woff2'),
+        url('../fonts/Lora-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Bold.woff2') format('woff2'),
+        url('../fonts/Lora-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body{
+	font-family: 'Mulish', sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	
+}
+
+main{
+	padding: 10px 20px 15px;
+
+}
+
+
+a{
+	color: rgb(85, 146, 222);
+	
+}
+
+.link{
+	
+	text-decoration:underline;
+
+}
+
+h1,
+h2 {
+	font-family: 'Lora', serif;
+	font-weight: 700;
+}
+
+p, 
+h2,
+ol,
+ul{
+	padding: 5px 0;
+	line-height: 1.2;
+}
+
+h3{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(255, 0, 140, 0.795);
+	padding: 5px;	
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 45px;
+	text-align: left;
+	margin: 20px 0;	
+	word-spacing: 10px;
+	line-height: 1.3;
+}
+h1 span{
+	font-size: 55px;
+	color: rgb(172, 168, 168);
+	letter-spacing: 8px;
+	text-shadow: 2px 2px 7px rgb(180, 135, 64), 30px -35px 10px rgba(227, 83, 0, 0.381);
+
+}
+h2{
+	text-indent: 30px;
+	font-size: 20px;
+	background-color: rgba(55, 143, 231, 0.669) ;
+	color: aliceblue;
+}
+
+.bold-text{
+	font-weight: 700;
+	color: rgb(83, 83, 83);
+}
+.oblique-text{
+	font-style: oblique;
+	
+}
+
+.line-through-text{
+	text-decoration: line-through;
+}
+
+.overline-text{
+	text-decoration: overline;
+}
+
+
+.italic-text{
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-style: italic;
+	color: rgb(36, 150, 112);
+	text-decoration: underline;
+}
+
+.about-block span{
+	text-transform: capitalize;
+}
+
+
+.pyramid-visual-block{
+	font-weight: bold;
+	text-align: center;
+	color: beige;
+	line-height: 4;
+	margin-bottom: 20px;
+}
+
+.self-actualization-item{
+	background-color: rgb(243, 199, 123);
+	width: 20%;
+	margin-left: 40%;
+}
+
+.esteem-item{
+	background-color: #c1c0c4;	
+	width: 40%;
+	margin-left: 30%;
+}
+
+.love-needs-item{
+	background-color: #f0b4a7;
+	width: 60%;
+	margin-left: 20%;
+}
+
+.safety-needs-item{
+	background-color: #eaabea;
+	width: 80%;
+	margin-left: 10%;
+	
+}
+
+.physiological-needs-item{
+	background-color: #cee99c;	
+	width: 100%;
+}
+
+.theory-block{
+margin-bottom: 20px;
+}
+
+.footer-link{
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.maslow-pyramid-block + p{
+	color: #e589e5;
+	font-weight: 400;
+	font-style: italic;
+	white-space: nowrap;
+}
+
+.maslow-pyramid-block ~  ul {
+	color: rgb(195, 92, 2);
+}
+
