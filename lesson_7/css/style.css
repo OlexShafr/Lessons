@@ -1,0 +1,155 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+
+.block__container{
+    background-color: rgba(255, 255, 255, 0.932);
+    max-width: 810px  ;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 92px;
+
+}
+
+.img{
+    max-width: 100%;
+    margin-bottom: 60px;
+    
+}
+
+.bold-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.citate{
+    margin: 48px 0;
+    padding-left: 52px;
+    background: url("../img/braces.png") 0 0  no-repeat;
+  
+
+}
+
+
+
+.list{
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+.list li {
+   
+    background: url("../img/check.png")  left 50%  no-repeat ;
+    padding-left: 32px;
+
+}
+
+/*EXP*/
+
+.bosfor-img{
+
+    height: 810px;
+    background:  url("../img/bosfor.jpg") 0 0 / cover fixed   no-repeat;
+    opacity: 0.7;
+    border-radius:49% 51% 40% 60% / 44% 67% 33% 56% ;
+    box-shadow: 10px 10px 250px rgba(130, 216, 159, 0.415) inset;
+
+
+}
+
+.sqare-main-second{
+    background-color: rgb(0, 0, 0);
+    padding: 30px 0;
+
+}
+
+.desert-img{
+    margin: 0 auto;
+    height: 650px;
+    width: 700px;
+    border-radius: 50%;
+    
+    background: url("../img/sahara.jpeg") 0 0 / cover fixed no-repeat ;
+}
+
+.block-red{
+    background-color: rgb(249, 68, 68);
+    margin-bottom: -100px; 
+}
+
+.block-green{
+    background-color: green;  
+    margin-bottom: -100px;   
+          
+}
+
+.block-yellow{
+background-color: rgb(255, 211, 68);
+margin-bottom: -24px;
+
+}
+
+
+.footer-block-gradient{
+
+    font-weight: 900;
+    color: aliceblue;
+    font-size: 70px;
+   
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,247,186,1) 0%, rgba(132,194,255,1) 0%, rgba(141,92,255,1) 0%, rgba(210,89,5,1) 100%, rgba(100,197,217,0) 100%, rgba(197,199,142,0.055299539170506895) 100%, rgba(197,199,142,0.055299539170506895) 100%);
+}
+
+
+.footer-block-home{
+    font-weight: 400;
+    font-size: 70px;
+    color: rgb(176, 169, 169);
+    text-align: center;
+    text-transform: uppercase;
+
+    background: url("../img/up-btn.png") 0  50%  no-repeat, linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,247,186,1) 0%, rgba(132,194,255,1) 100%, rgba(141,92,255,1) 100%, rgba(210,89,5,1) 100%, rgba(100,197,217,0) 100%, rgba(197,199,142,0.055299539170506895) 100%, rgba(197,199,142,0.055299539170506895) 100%);
+}
+
