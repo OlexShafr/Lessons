@@ -1,0 +1,65 @@
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+body{
+	font-family: "Lato";
+	color: #424551;
+	font-weight: 400;
+	
+}
+
+.main-container{
+	margin: 0 auto;
+	max-width: 1230px;
+	font-size: 40px;
+
+}
+
+ul li::before{
+	content: "";
+	display:inline-block;
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border: 3px #000 solid;
+}
+
+ul li:nth-child(2)::before{
+	background-color: rgb(4, 0, 214);
+}
+
+
+ul li:last-child::before{
+	background-color: rgb(0, 255, 72);
+}
+
+
+
+
+img {
+	display: block;
+	max-width: 700px;
+}
